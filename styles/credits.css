@@ -1,0 +1,107 @@
+.watermelon-background {
+    --bg-image: url(/images/watermelons-1.jpg);
+    --bg-image-opacity: .35;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    isolation: isolate;
+}
+
+.watermelon-background::after {
+    content:'';
+    position: absolute;
+    z-index: -1;
+    inset: 0;
+    opacity: var(--bg-image-opacity);
+    background-image: var(--bg-image);
+    background-size: cover;
+    background-position: center;
+}
+
+.reference-table {
+    display: flex;
+    justify-content: center;
+    padding: 5rem 2rem 2rem 2rem;
+}
+
+table, th, td {
+    border: .1rem solid;
+}
+
+thead th {
+    font-size: 2rem;
+    background-color:#0bb747bb;
+    font-weight: 100;
+}
+
+th {
+    font-size: 1.5rem;
+    font-weight: 100;
+    background-color: #fa898fd8;
+}
+
+td {
+    padding: .5rem;
+}
+
+.form {
+    background-color:#fa898fd8;
+    width: 20rem;
+    border-radius: 1.5rem;
+    padding: 2rem;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 2rem;
+}
+
+.form h2 {
+    font-size: 1.5rem;
+}
+
+footer {
+    margin-top: 0rem;
+}
+
+
+.email-icon {
+    height: 4rem;
+    width: auto;
+    display: block;
+    margin: 2rem auto; 
+}
+
+.join-btn {
+    background-color: #0bb747bb;
+    border: none;
+    border-radius: .3rem;
+    color: #ffffff;
+    font-size: 1.5rem;
+    padding-bottom: .5rem;
+}
+
+.join-btn:hover {
+    background-color: #ffffff;
+    color: #0bb747bb;
+}
+
+.join-btn:active {
+    background-color:#ffffff;
+    box-shadow: 0 .3rem #c1676c;
+    transform: translateY(.5rem);
+}
+
+.email-entry {
+    height: 2.5rem;
+    width: 11.2rem;
+    border: none;
+    border-radius: .3rem;
+}
+
+@media (min-width: 58em) {
+    .reference-table {
+        display: flex;
+        justify-content: center;
+        padding: 10rem 2rem 2rem 2rem;
+    }
+
+}
