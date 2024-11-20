@@ -1,8 +1,43 @@
-body {
-    text-align: center;
-    background-color: #F4999A;
+html, body {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: 0;
 }
 
+body {
+    background-color: #F4999A;
+    
+}
+
+figure {
+    margin-left: .2rem;
+    margin-right: .2rem;
+}
+
+.page-wrapper a {
+    font-size: .8rem;
+}
+
+.page-wrapper {
+    margin: inline-auto;
+    text-align: center;
+}
+
+.cite {
+    font-size: .8rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+p {
+    text-align: left;
+}
+
+img {
+    border: .2rem solid #bfe0bf;
+    justify-items: center;
+}
 
 .arts, .gaza {
     padding-top: 4rem;
@@ -15,7 +50,9 @@ body {
 h1 {
     font-size: 2.8rem;
     background-color: #bfe0bf;
+    margin: 0 auto;
     width: 100%;
+    text-align: center;
 }
 
 h2 {
@@ -26,5 +63,30 @@ h2 {
 h3 {
     font-size: 1.5rem;
     font-weight: 100;
-    
+
+}
+
+@media (min-width: 58em) {
+
+    .page-wrapper {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        
+}
+    article {
+        flex: 30rem;
+        
+    }
+
+    .cuisine {
+    padding-top: 3.8rem;
+    padding-bottom: 0;
+    background-color: #bfe0bf79;
+    }
+
+    img {
+        max-width: 25rem;
+    }
+
 }
