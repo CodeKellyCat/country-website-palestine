@@ -1,0 +1,30 @@
+body {
+    text-align: center;
+    background-color: #F4999A;
+}
+
+
+.arts, .gaza {
+    padding-top: 4rem;
+}
+
+.children {
+    padding-top: 10em;
+}
+
+h1 {
+    font-size: 2.8rem;
+    background-color: #bfe0bf;
+    width: 100%;
+}
+
+h2 {
+    text-decoration: underline;
+    font-weight: 100;
+}
+
+h3 {
+    font-size: 1.5rem;
+    font-weight: 100;
+    
+}
