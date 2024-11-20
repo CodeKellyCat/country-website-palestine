@@ -12,16 +12,12 @@ body {
     color: black;
     background-color: #ffffff;
     margin: 0 auto;
+    padding: 0;
     min-height: 100%;
 }
 
 .site-wrapper {
     margin-inline: auto;
-}
-
-body a {
-    color: black;
-    text-decoration: none;
 }
 
 header, footer {
@@ -74,8 +70,9 @@ ul {
     padding: .5rem;
 }
 
-a:visited {
-    color: #000000;
+body a {
+    color: black;
+    text-decoration: none;
 }
 
 main a {
@@ -83,6 +80,27 @@ main a {
     background-color: #b7eeca;
     border-radius: 2rem;
     padding: .4rem;
+}
+
+a:visited {
+    color: #000000;
+}
+
+a:hover {
+    color:#b7eeca;
+    background-color:#000000;
+    border-radius: 2rem;
+}
+
+a:focus {
+    color:#b7eeca;
+    background-color:#000000;
+    border-radius: 2rem;
+}
+
+a:active {
+    background-color: #ffffff;
+    color: #000000;
 }
 
 video {
@@ -134,7 +152,7 @@ p {
 } 
 
 .main-culture-container, .main-people-container {
-    background-color: #fa898e;
+    background-color: #fa898fd8;
     border-top: .2rem dotted black;
     border-bottom: .2rem dotted black;
 }
@@ -148,7 +166,7 @@ footer a {
 }
 footer p {
     font-size: .7rem;
-    margin: ;
+    margin: 0;
 }
 
 @media (min-width: 58em) {
@@ -180,15 +198,52 @@ footer p {
 
     footer {
         height: 6rem;
+        
     }
+
+    header a:visited {
+        color:#EE2A35;
+    }
+    
+    header a:hover {
+        color:#b7eeca;
+        background-color:#000000;
+        border-radius: .5rem;
+    }
+    
+    header a:focus {
+        color:#b7eeca;
+        background-color:#000000;
+        border-radius: .5rem;
+    }
+    
+    header a:active {
+        background-color: #ffffff;
+        color: #000000;
+        border-radius: .5rem;
+    } 
 
     main a {
         color:#000000;
         background-color: transparent;
+        text-decoration: underline;
     }
-
-    main a:visited {
+    
+    .site-categories a:hover {
+        background-color: transparent;
+        font-size: 2rem;
         color: #000000;
+    }
+    
+    .site-categories a:focus {
+        background-color: transparent;
+        font-size: 2rem;
+        color: #000000;
+    }
+    
+    .site-categories a:active {
+        background-color: transparent;
+        color:#EE2A35;
     }
 
     h1 {
@@ -196,14 +251,19 @@ footer p {
     }
 
     h2 {
-        font-size: 3rem;
+        font-size: 3.5rem;
     }
 
-
-    p {
-        width: 50%;
+    .about p {
+        width: 70%;
         text-align: center;
         margin: 0 auto;
+        font-size: 2rem;
+        padding-bottom: 2rem;
+    }
+
+    .site-categories p{
+        text-align: justify;
     }
 
     img {

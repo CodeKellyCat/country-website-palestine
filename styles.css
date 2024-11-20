@@ -96,10 +96,6 @@ video {
     position: relative;
 }
 
-.dome-img {
-    filter: brightness(80%);
-}
-
 h1 {
     font-family: "Glook-Regular", Georgia, 'Times New Roman', Times, serif;
     position: absolute;
@@ -188,7 +184,7 @@ footer p {
     }
 
     main a:visited {
-        color: #000000;
+        color: #000000;-
     }
 
     h1 {
@@ -200,10 +196,9 @@ footer p {
     }
 
 
-    p {
-        width: 50%;
-        text-align: center;
-        margin: 0 auto;
+    .about .about-blurb p {
+        padding: 4rem 2rem;
+        font-size: 6rem;
     }
 
     img {
