@@ -1,8 +1,7 @@
 html, body {
-    width: 100%;
+
     margin: 0;
     padding: 0;
-    overflow-x: 0;
 }
 
 body {
@@ -37,6 +36,7 @@ p {
 img {
     border: .2rem solid #bfe0bf;
     justify-items: center;
+    object-fit: contain;
 }
 
 .arts, .gaza {
@@ -65,28 +65,41 @@ h3 {
     font-weight: 100;
 
 }
+footer p {
+    text-align: center;
+}
 
 @media (min-width: 58em) {
+    
 
-    .page-wrapper {
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-        
+    .container {
 }
-    article {
-        flex: 30rem;
-        
+
+article {
+    flex: 25rem;
+    border: .1rem solid black;
+}
+
+    header {
+        display: block;
+        margin: 0;
+        padding: 0;
     }
 
     .cuisine {
-    padding-top: 3.8rem;
-    padding-bottom: 0;
-    background-color: #bfe0bf79;
+        padding-top: 3.8rem;
+        padding-bottom: 0;
+        background-color: #bfe0bf79;
     }
 
     img {
         max-width: 25rem;
+    }
+
+    .sports img {
+        object-fit: contain;
+        max-width: fit-content;
+        max-height: fit-content;
     }
 
 }

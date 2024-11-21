@@ -1,3 +1,7 @@
+body {
+    width: 100%;
+}
+
 .watermelon-background {
     --bg-image: url(/images/watermelons-1.jpg);
     --bg-image-opacity: .35;
@@ -20,8 +24,15 @@
 
 .reference-table {
     display: flex;
-    justify-content: center;
-    padding: 5rem 2rem 2rem 2rem;
+    justify-content: flex-start;
+    padding-top: 5rem;
+    margin: 0;
+    width: 100%;
+}
+
+table {
+    table-layout: auto;
+    margin: 2rem;
 }
 
 table, th, td {
@@ -42,6 +53,9 @@ th {
 
 td {
     padding: .5rem;
+    column-width: 10rem;
+    text-wrap: wrap;
+    overflow-wrap: break-word;
 }
 
 .form {
