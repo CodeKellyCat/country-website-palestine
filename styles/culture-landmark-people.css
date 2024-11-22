@@ -9,17 +9,11 @@ body {
     
 }
 
-figure {
-    margin-left: .2rem;
-    margin-right: .2rem;
-}
-
-.page-wrapper a {
+.container a {
     font-size: .8rem;
 }
 
-.page-wrapper {
-    margin: inline-auto;
+.container {
     text-align: center;
 }
 
@@ -39,9 +33,6 @@ img {
     object-fit: contain;
 }
 
-.arts, .gaza {
-    padding-top: 4rem;
-}
 
 .children {
     padding-top: 10em;
@@ -62,9 +53,10 @@ h2 {
 
 h3 {
     font-size: 1.5rem;
-    font-weight: 100;
-
+    font-weight: 100;   
 }
+
+
 footer p {
     text-align: center;
 }
@@ -72,28 +64,35 @@ footer p {
 @media (min-width: 58em) {
     
 
-    .container {
-}
-
-article {
-    flex: 25rem;
-    border: .1rem solid black;
-}
-
     header {
         display: block;
         margin: 0;
         padding: 0;
     }
 
+    .container {
+        display: block;
+        margin: 8rem 8rem;
+        font-size: 3rem;
+        
+    }     
+
+    .div-cat-odd { 
+        
+    }
+
+    .div-cat-even {background-color: aliceblue;}
+
+h1 {
+    10rem;
+}
+
     .cuisine {
-        padding-top: 3.8rem;
-        padding-bottom: 0;
         background-color: #bfe0bf79;
     }
 
     img {
-        max-width: 25rem;
+        
     }
 
     .sports img {
