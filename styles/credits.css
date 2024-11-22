@@ -3,7 +3,7 @@ body {
 }
 
 .watermelon-background {
-    --bg-image: url(/images/watermelons-1.jpg);
+    --bg-image: url(/images/home-page/watermelons-1.jpg);
     --bg-image-opacity: .35;
     background-size: cover;
     background-position: center;
