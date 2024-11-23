@@ -5,7 +5,7 @@ body {
 .watermelon-background {
     --bg-image: url(/images/home-page/watermelons-1.jpg);
     --bg-image-opacity: .35;
-    background-size: cover;
+    background-size: 80rem 80rem;
     background-position: center;
     position: relative;
     isolation: isolate;
