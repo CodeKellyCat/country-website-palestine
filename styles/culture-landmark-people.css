@@ -9,6 +9,30 @@ body {
     
 }
 
+
+.insta-icon {
+    background-color: transparent;
+}
+
+.insta-icon:visited {
+    color: black;
+    background-color: transparent;
+}
+
+.insta-icon:hover {
+    background-color: transparent;
+    fill: #f3f5f4;
+}
+
+.insta-icon:focus {
+    color: maroon;
+    background-color: transparent;
+}
+
+.insta-icon:active { 
+    color: maroon;
+}
+
 .container a {
     font-size: .8rem;
 }
@@ -24,11 +48,25 @@ body {
     padding-right: 1rem;
 }
 
-figcaption {
-    font-style: italic;
+p {
+    text-align: left;
 }
 
-p {
+figure {
+    margin-left: 0;
+    margin-right: 0;
+}
+
+figcaption {
+    font-style: italic;
+    font-size: .8rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    text-align: left;
+}
+
+cite {
+    font-size: .8rem;
     text-align: left;
 }
 
@@ -38,22 +76,24 @@ img {
     object-fit: contain;
 }
 
-
-.children {
-    padding-top: 10em;
-}
-
 h1 {
     font-size: 2.8rem;
     background-color: #bfe0bf;
     margin: 0 auto;
     width: 100%;
     text-align: center;
+    
 }
 
 h2 {
     
     font-weight: 100;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.h2-children {
+    padding-top: rem;
 }
 
 h3 {
@@ -94,7 +134,7 @@ footer p {
     }
 
     p {
-        text-align: center;
+        text-align: left;
     }
     
     .container a {
@@ -114,6 +154,15 @@ footer p {
         object-fit: contain;
         max-width: fit-content;
         max-height: fit-content;
+    }
+
+    .img-medical {
+        max-width: 35rem;
+        max-height: auto;
+    }
+
+    figcaption {
+        text-align: center;
     }
 
 }
