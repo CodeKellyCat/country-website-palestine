@@ -1,0 +1,168 @@
+html, body {
+
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #F4999A;
+    
+}
+
+
+.insta-icon {
+    background-color: transparent;
+}
+
+.insta-icon:visited {
+    color: black;
+    background-color: transparent;
+}
+
+.insta-icon:hover {
+    background-color: transparent;
+    fill: #f3f5f4;
+}
+
+.insta-icon:focus {
+    color: maroon;
+    background-color: transparent;
+}
+
+.insta-icon:active { 
+    color: maroon;
+}
+
+.container a {
+    font-size: .8rem;
+}
+
+.container {
+    text-align: center;
+    margin-top: 6rem;
+}
+
+.cite {
+    font-size: .8rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+p {
+    text-align: left;
+}
+
+figure {
+    margin-left: 0;
+    margin-right: 0;
+}
+
+figcaption {
+    font-style: italic;
+    font-size: .8rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    text-align: left;
+}
+
+cite {
+    font-size: .8rem;
+    text-align: left;
+}
+
+img {
+    border: .2rem solid #bfe0bf;
+    justify-items: center;
+    object-fit: contain;
+}
+
+h1 {
+    font-size: 2.8rem;
+    background-color: #bfe0bf;
+    margin: 0 auto;
+    width: 100%;
+    text-align: center;
+    
+}
+
+h2 {
+    
+    font-weight: 100;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.h2-children {
+    padding-top: 6rem;
+}
+
+h3 {
+    font-size: 1.5rem;   
+    font-family: gloock-regular, serif;
+}
+
+
+footer p {
+    text-align: center;
+}
+
+@media (min-width: 58em) {
+    
+
+    header {
+        display: block;
+        margin: 0;
+        padding: 0;
+    }
+
+    .container {
+        display: block;
+        margin: 10rem 8rem;
+        font-size: 1.5rem;        
+    }    
+
+    h1 {
+        font-size: 4.5rem;
+    }
+
+    h2 {
+        font-size: 3rem;
+    }
+
+    .h2-children {padding-top: 6rem;}
+
+    h3 {
+        font-size: 2.5rem;
+    }
+
+    p {
+        text-align: left;
+    }
+    
+    .container a {
+        font-size: 1.5rem;
+    }
+
+    .div-cat-even {
+        background-color: #bfe0bf79;
+    }
+
+    img {
+        max-width: fit-content;
+    }
+
+    .sports img {
+        object-fit: contain;
+        max-width: fit-content;
+        max-height: fit-content;
+    }
+
+    .img-medical {
+        max-width: 35rem;
+    }
+
+    figcaption {
+        text-align: center;
+    }
+
+}
